@@ -1,0 +1,263 @@
+*{
+  margin: 0;
+  font-family: Arial;
+  border: border-box;
+}
+.navbar{
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-logo{
+  height: 50px;
+  width: 100px;
+}
+.logo{
+  background-image: url(Images/amazon_logo.png);
+  background-size: cover;
+  height: 50px;
+  width: 100%;
+}
+.border{
+  border: 1px solid transparent;
+}
+.border:hover{
+  border: 1px solid white;
+}
+
+/* BOX 2 */
+.one{
+  color: #cccccc;
+  font-size: 0.80rem;
+  margin-left: 15px;
+}
+.two{
+  font-size: 1rem;
+  margin-left: 5px;
+}
+.add-icon{
+  display: flex;
+  align-items: center;
+}
+.border{
+  border: 1px solid transparent;
+}
+.border:hover{
+  border: 1px solid white;
+}
+
+/* BOX 3 */
+.nav-search{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: pink;
+  height: 40px;
+  width: 620px;
+  border-radius: 5px;
+}
+#search-select{
+  background-color: #f3f3f3;
+  width: 45px;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+}
+.search-input{
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+.search-icon{
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  background-color: #febd68;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #0f1111;
+}
+
+.nav-search:hover{
+  border: 2px solid orange;
+}
+
+/* BOX 4 */
+
+span{
+  font-size: 12px;
+}
+.nav-second{
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* BOX 6 */
+.nav-cart i{
+  font-size: 30px;
+}
+.nav-cart{
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* Panel Section Here  */
+.panel{
+  background-color: #222f3d;
+  display: flex;
+  color: white;
+  height: 40px;
+  align-items: center;
+  justify-content: space-evenly;
+  /* margin: 5px 0 6px; */
+}
+.panel-option p{
+  display: inline;
+  margin-left: 14px;
+}
+.panel-option{
+  width: 70%;
+  font-size: 14px;
+  
+}
+.panel-deals{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* Hero Section  Body content are Here */
+
+.hero-section{
+  background-image: url(Images/hero.jpg);
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+.hero-msg{
+  background-color: white;
+  color: black;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  width: 80%;
+  margin-bottom: 25px;
+}
+.hero-msg a{
+  color: #007185;
+}
+
+/* Shop-section */
+.shop-section{
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+}
+.box{
+ height: 400px;
+ width: 23%;
+ background-color: white;
+ padding: 20px 0px 15px;
+ margin-top: 15px;
+ 
+}
+.box-img img{
+  /* height: 300px; */
+  cursor: pointer;
+  height: 340px;
+  width: 329px;
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  margin-top: 15px;
+  margin-bottom: 6px;
+}
+.box-img p:hover{
+  color: #007185;
+  cursor: pointer;
+}
+.box-content{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.hero-msg a{
+  color: #007185;
+  padding-left: 6px;
+}
+
+/* Here are the Footer  */
+footer{
+  margin-top: 15px;
+}
+
+.foot-panel-one{
+  background-color: #37475a;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+.foot-panel-two{
+  background-color: #222f3d;
+  color: white;
+  height: 300px;
+  display: flex;
+  font-size: 14px;
+  justify-content: space-evenly;
+}
+ul{
+  margin-top: 20px;
+}
+ul a{
+  display: block;
+  font-size: 12px;
+  margin-top: 10px;
+  color: #dddddd;
+}
+.foot-panel-three{
+  background-color: #222f3d;
+  border: 0.5px solid white;
+  color: white;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+  background-image: url(Images/amazon_logo.png);
+  background-size: cover;
+  height: 50px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.foot-panel-four{
+  background-color: #0f1111;
+  color: white;
+  height: 80px;
+  text-align: center;
+}
+.pages{
+font-size: 14px;
+padding-top: 25px;
+}
+.copyright{
+  padding-top: 5px;
+font-size: 12px;
+
+}
+
+.hero-msg a:hover{
+  color: red;
+}
